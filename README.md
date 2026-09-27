@@ -1,5 +1,7 @@
 # org.json
 
-适配声明与可运行示例位于 `org/json`，固定 org.json 20260814，发布坐标为 `org:json:1`。公开面覆盖常用 JSON object、array、解析、查询、修改、序列化和迭代操作。
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-独立 NAR 消费、JSON 解析与修改、Object 边界和普通 Norm 迭代协议由 `OrgJsonBindingIntegrationTest` 验收。完整 census 与未支持原因位于 NAR 的 `binding/java-api.json`。
+The adapter declaration and runnable example are in `org/json`. It pins org.json 20260814 and publishes as `org:json:1`. The public API covers common JSON objects and arrays, parsing, querying, modification, serialization, and iteration.
+
+Standalone NAR consumption, JSON parsing and modification, Object boundaries, and ordinary Norm iteration are covered by `OrgJsonBindingIntegrationTest`. The complete API census and reasons for unsupported APIs are in the NAR's `binding/java-api.json`.
