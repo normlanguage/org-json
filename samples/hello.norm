@@ -1,0 +1,16 @@
+import org.json.JSONObject
+import org.json.jsonObjectNew
+
+main() {
+  JSONObject event = jsonObjectNew("{\"name\":\"Norm\",\"visits\":2}")!!
+  String name = event.getString("name")!!
+  Integer visits = event.getInt("visits") + 1
+  event.put(arg0: "visits", arg1: visits)
+  printLine(name)
+  printLine(event.getInt("visits"))
+  printLine(event.optString(arg0: "status", arg1: "new")!!)
+}
+
+Module module() {
+  module(dependencies: [dependency(repository: "github", name: "org.json", version: 2)])
+}
