@@ -20,4 +20,4 @@ Norm
 new
 ```
 
-API reference: [module.norm](../org/json/module.norm) lists the exposed `JSONObject`. The module's `Main.norm` remains its own adapter integration entry point.
+API reference: [module.norm](../org/json/module.norm) lists the exposed `JSONObject`. The [adapter acceptance example](../examples/sample/org/json/Main.norm) exercises additional binding behavior.

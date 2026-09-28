@@ -1,0 +1,7 @@
+Module module() {
+  return module(
+    name: "sample.org.json",
+    version: 1,
+    dependencies: [dependency(repository: "github", name: "org.json", version: 3)]
+  )
+}

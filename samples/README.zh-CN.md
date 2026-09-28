@@ -20,4 +20,4 @@ Norm
 new
 ```
 
-API 入口：[module.norm](../org/json/module.norm) 列出公开的 `JSONObject`。`Main.norm` 仍是该适配器自身的集成入口。
+API 入口：[module.norm](../org/json/module.norm) 列出公开的 `JSONObject`。[适配器验收示例](../examples/sample/org/json/Main.norm)覆盖更多绑定行为。

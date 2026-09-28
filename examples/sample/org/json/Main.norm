@@ -1,4 +1,9 @@
-package org.json
+package sample.org.json
+
+import org.json.JSONObject
+import org.json.jsonObjectNew
+import org.json.JSONArray
+import org.json.jsonArrayNew
 
 Void main() {
   JSONObject? object = jsonObjectNew("{\"name\":\"Norm\",\"count\":2}")
