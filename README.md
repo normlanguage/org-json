@@ -7,3 +7,5 @@ The adapter declaration and runnable example are in `org/json`. It pins org.json
 Standalone NAR consumption, JSON parsing and modification, Object boundaries, and ordinary Norm iteration are covered by `OrgJsonBindingIntegrationTest`. The complete API census and reasons for unsupported APIs are in the NAR's `binding/java-api.json`.
 
 [Runnable samples](samples/README.md) demonstrate the library as an external Norm dependency.
+
+[License](LICENSE)
